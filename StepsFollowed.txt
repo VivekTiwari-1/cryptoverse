@@ -1,0 +1,11 @@
+antd --> for design
+ @ant-design/icons --> for icons
+react-redux
+@reduxjs/toolkit
+axios --> to make API requests
+chart.js --> for chartjs html-react-parser --> Used to parse HTML data 
+millify --> Convert large data into readable strings 
+moment --> for time and date
+react-chartjs-2 --> to render charts from chartjs
+
+APIs used from Rapid API --> Coinranking, bing news 
