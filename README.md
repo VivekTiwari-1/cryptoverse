@@ -1,70 +1,61 @@
-# Getting Started with Create React App
+# CryptoVerse
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+CryptoVerse is a comprehensive web application that provides the latest news, price updates, market capitalization, and detailed analysis of major cryptocurrencies. This platform fetches real-time data from APIs such as CoinRanking and Bing News, ensuring users have access to the most current information in the crypto world.
 
-## Available Scripts
+<br/>
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- **Real-time Cryptocurrency Data**: View live price, market cap, and other relevant data for all major cryptocurrencies.
+- **Latest Crypto News**: Stay updated with the latest news articles related to cryptocurrencies.
+- **Detailed Analysis Pages**: Each cryptocurrency has a dedicated page offering a deep dive into its market trends, historical data, and more.
+- **Interactive Charts**: Visualize data with interactive charts powered by Chart.js.
+- **Responsive Design**: Optimized for various screen sizes and devices.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Tech Stack
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **React**: A JavaScript library for building user interfaces.
+- **CSS**: Used for styling the application.
+- **JavaScript**: Programming language for logic implementation.
+- **Ant Design (antd)**: A UI component library for React, providing pre-designed components.
+- **Chart.js**: A JavaScript library used to create charts and graphs.
+- **Millify**: A library for formatting numbers into human-readable strings.
+- **Moment**: A library for parsing, validating, manipulating, and formatting dates.
+- **Axios**: A promise-based HTTP client for making API requests.
+- **React-Redux**: A state management tool for managing the global state of the application.
 
-### `npm test`
+## API Integration
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### CoinRanking API
 
-### `npm run build`
+- **Endpoint**: https://api.coinranking.com/v2/coins
+- **Data**: Fetches real-time cryptocurrency data including price, market cap, volume, etc.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Bing News API
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Endpoint**: https://api.bing.microsoft.com/v7.0/news/search
+- **Data**: Provides the latest news articles related to cryptocurrencies.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Contributing
 
-### `npm run eject`
+Contributions are welcome! Please follow the steps below:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Fork the repository.
+- Create a new feature branch: `git checkout -b feature-branch-name`
+- Commit your changes: `git commit -m 'Add new feature`
+- Push to the branch: `git push origin feature-branch-name`
+- Submit a pull request.
+  <br/>
+  <br/>
+  Please ensure your code adheres to the existing coding standards and includes tests for any new features or bug fixes.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## License
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+This project is licensed under the MIT License.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Contact
 
-## Learn More
+For any questions or inquiries, please contact:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Vivek Kumar Tiwari
+- Email: vivektiwarii4545@gmail.com
