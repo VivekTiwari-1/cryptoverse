@@ -4,6 +4,10 @@ CryptoVerse is a comprehensive web application that provides the latest news, pr
 
 <br/>
 
+Live Link: https://cryptoversebyvivek.netlify.app/
+
+<br/>
+
 ## Features
 
 - **Real-time Cryptocurrency Data**: View live price, market cap, and other relevant data for all major cryptocurrencies.
